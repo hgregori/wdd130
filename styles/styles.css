@@ -1,12 +1,18 @@
+:root{ 
+    --background-color: darkblue;
+    --padding: 10px;
+    --border: 1px solid rgb(0 0 0/0.1);
+}
+
 nav { 
-    background-color: darkblue;
-    padding: 10px;
+    background-color: var(--background-color);
+    padding: var(--padding);
 }
 
 nav a {
     color: white;
     display: block;
-    padding: 20px;
+    padding: var(--padding)
 }
 
 main {
@@ -20,8 +26,8 @@ h1 {
 aside {
     width: 320px;
     margin: 10px;
-    border: solid 1px rgb(0 0 0/0.1);
-    padding: 15px;
+    border: var(--border);
+    padding: var(--padding)
     background-color: #999 ;
     color: #222;
     text-align: center;
@@ -33,19 +39,22 @@ aside img{
 } 
 
 main img {
+    position: relative;
     width: 150px;
     height: auto;
-    border: 1px solid black;
+    border: var(--border);
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    left: 10px;
+    bottom: 10px;
 }
 
 p {
-    padding: 0;
+    padding: var(--padding);
 }
 
 footer {
     margin-top: 15px;
-    border-top: 1px solid #000;
+    border-top: var(--padding);
     text-align: center;
 }
