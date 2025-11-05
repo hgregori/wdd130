@@ -8,8 +8,8 @@
     --primary-color: darkblue;
     --accent-color1:#264653;
     --accent-color: tan;
-    --heading-font: "times new roman", "Georgia";
-    --body-font: Arial, Helvetica,sans-serif;
+    --heading-font: "times new roman";
+    --body-font: Arial, Helvetica, sans-serif;
 }
 
 body {
