@@ -28,5 +28,6 @@ body {
 }
 
 .item3 {
+    align-items: flex-end;
     min-height: 300px;
 }
