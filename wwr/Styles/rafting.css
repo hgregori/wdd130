@@ -56,7 +56,7 @@ h1 {
     color: #fff;
 }
 
-article {
+.hero article {
     position: absolute;
     top: 50px;
     right: 0;
@@ -66,7 +66,7 @@ article {
     text-align: left;
 }
 
-.hero article {
+.hero article img {
     float: right;
     width: 100px;
     margin: 2px;
