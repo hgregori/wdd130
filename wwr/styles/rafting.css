@@ -142,8 +142,24 @@ h1 {
 
 }
 
-main section img {
+main section div img {
     width: 260px;
     border: 1px solid rgb(0 0 0/0.3);
     box-shadow: 0px 3px 10px 3px darkblue;
 }
+
+.trips img {
+    width: 140px;
+    height: auto;
+}
+
+.trips {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
+}
+
+.trips figure { 
+    text-align: center;
+}
+
