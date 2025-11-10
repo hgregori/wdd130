@@ -87,15 +87,6 @@ nav, p, section, article {
     padding: 8px;
 }
 
-.socialmedia a {
-    text-decoration: none;
-}
-
-.socialmedia { 
-    display: flex;
-    flex-direction: row;
-}
-
 .hero {
     position: relative;
     padding: 10px 0;
@@ -163,3 +154,13 @@ main section div img {
     text-align: center;
 }
 
+footer p {
+    text-align: center;
+    border-top: 1px solid #264653;
+    position: relative;
+}
+
+.socialmedia a {
+    position: absolute;
+    text-decoration: none;
+}
