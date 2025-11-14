@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Quiz Form</title>
+    <link rel="stylesheet" href="styles/quiz.css">
+
+</head>
+
+<body>
+    <main class="box">
+        <h1>Basic HTML and CSS Quiz</h1>
+        <form class="box">
+            <div class="quiz-item box">
+                <label for="q1">1. What does the acronym CSS stand for?</label>
+                <input type="text" id="q1" name="q1">
+            </div>
+
+            <div class="quiz-item box">
+                <label for="q2">2. Which country is the most beutiful of the world?</label>
+                <textarea name="q2" id="q2"></textarea>
+            </div>
+
+            <div class="quiz-item box">
+                <label for="q3">3. how much is:</label>
+                <code class="box"> 2 + 2 = ? </code>
+                <input type="number" id="q3" name="q3">
+            </div>
+
+            <div class="quiz-item box">
+                <label for="q4">4.Is Henrique the most handsome guy in this planet?</label>
+                <select name="q4" id="q4">
+                    <option value="" select disabled>Choose One...</option>
+                    <option value="1">Yes</option>
+                    <option value="2">Absolutully </option>
+                    <option value="3">No doubt</option>
+                    <option value="4">For sure</option>
+                </select>
+            </div>
+
+            <button type="submit"> Submit Quiz for grading</button>
+
+        </form>
+    </main>
+</body>
+
+</html>

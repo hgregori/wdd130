@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice the form function</title>
+    <meta name="author" content="Henrique Missieri Gregorio">
+    <link rel="stylesheet" href="styles/poll-form.css">
+</head>
+
+<body>
+    <header>
+        <h1>WDD 130 | HTML Form - User Poll</h1>
+        <p><em>A page where Henrique Gregorio will Practice all his web development skills</em></p>
+    </header>
+
+    <main>
+        <form>
+            <fieldset>
+                <legend>Contact Information</legend>
+
+                <div calss="form-item column1">
+                    <label for="fullame">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname" required>
+                </div>
+                <div class="form-item column1">
+                    <label for="email">E-mail address:</label>
+                    <input type="text" id="email" name="email" required>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Questions</legend>
+                <div class="form-item column2">
+                    <label for="browser">What is you favorite Web browser?</label>
+                    <select name="browser" id="browser">
+                        <option value="--">- -</option>
+                        <option value="1">Google Chrome</option>
+                        <option value="2">Opera</option>
+                        <option value="3">Safari</option>
+                        <option value="4">Edge</option>
+                </div>
+                <div class="sur-item column2">
+                    <label><input type="checkbox" id="pet" name="pet">Do you have a household pet?</label>
+                </div>
+                <div>
+                    <label for="lived">Where have you lived?</label>
+                    <textarea name="lived" id="lived" rows="4" placeholder="Ex: New York, São Paulo, etc..."></textarea>
+                </div>
+            </fieldset>
+
+            <button type="submit">Submit Answers</button>
+
+            </select>
+        </form>
+    </main>
+
+    <footer>
+        <p>©2025 | HTML From - User Poll Activity | Henrique Missieri Gregorios</p>
+    </footer>
+</body>
+
+</html>
