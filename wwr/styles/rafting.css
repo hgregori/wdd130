@@ -139,19 +139,40 @@ main section div img {
     box-shadow: 0px 3px 10px 3px darkblue;
 }
 
-.trips img {
-    width: 140px;
-    height: auto;
+
+section  {
+    display: flex;
+    flex-wrap: wrap; /* Allows wrapping if screen is small */
+    justify-content: center; /* Centers the content horizontally */
+    gap: 18px; /* Space between images */
+    padding: 18px;
 }
 
-.trips {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 1rem;
-}
-
-.trips figure { 
+section h2 {
+    flex-basis: 100%;
     text-align: center;
+    margin-bottom: 20px;
+}
+
+figure {
+    display: flex;
+    flex-direction: column; /* Stack image and caption vertically */
+    align-items: center; /* Center caption under image */
+    width: 140px; /* Adjust as needed */
+    margin: 0;
+}
+
+figure img {
+    width: 100%; /* Makes image fit the figure width */
+    height: auto;
+    border-radius: 8px; /* Optional: rounded corners */
+}
+
+figcaption {
+    margin-top: 8px;
+    font-size: 1rem;
+    text-align: center;
+    color: #333;
 }
 
 footer p {
