@@ -21,64 +21,74 @@
             <a class="a4" href="contact.html">Contact Us</a>
         </nav>
     </header>
-    <main>
-        <h1>White Water Rafting Company</h1>
-        <p>123 Rio doce do sul</p>
-        <p>Foz do Iguaçu, Parana</p>
-        <p>+55 (15)99876-5432</p>
-        <p>info@whitewater.com</p>
-        <iframe
-            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13050.817416643622!2d-54.70436642814488!3d-25.399608148795686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1763157323806!5m2!1spt-BR!2sbr"
-            width="600" height="450" ;allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <main class="information">
+        <div class="information-contact">
+            <h1>White Water Rafting Company</h1>
+            <p>123 Rio doce do sul</p>
+            <p>Foz do Iguaçu, Parana</p>
+            <p>+55 (15)99876-5432</p>
+            <p>info@whitewater.com</p>
+        </div>
 
-        <form>
-            <label for="name">Full Name</label>
-            <input type="text" id="name" name="name" required>
+        <section class="information-survey">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13050.817416643622!2d-54.70436642814488!3d-25.399608148795686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1763157323806!5m2!1spt-BR!2sbr"
+                width="600" height="450" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-            <label for="email">Email address</label>
-            <input type="email" id="email" name="email" required>
+            <form>
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" required>
 
-            <p>What is the purpose of you contact?</p>
-            <input type="radio" id="purpose1" name="purpose" value="General">
-            <label for="purpose1">General Inquiry</label><br>
-            <input type="radio" id="purpose2" name="purpose" value="Reservation">
-            <label for="purpose2">Reservation Question</label><br>
-            <input type="radio" id="purpose3" name="purpose" value="Suggestion">
-            <label for="purpose3">Website Suggestion</label><br>
+                <label for="email">Email address</label>
+                <input type="email" id="email" name="email" required>
 
-            <label for="purpose_text">Text:</label>
-            <textarea name="purpose_text" id="purpose_text" rows="5"
-                placeholder="Type the reason of your message..."></textarea>
+                <p>What is the purpose of you contact?</p>
+                <input type="radio" id="purpose1" name="purpose" value="General">
+                <label for="purpose1">General Inquiry</label><br>
+                <input type="radio" id="purpose2" name="purpose" value="Reservation">
+                <label for="purpose2">Reservation Question</label><br>
+                <input type="radio" id="purpose3" name="purpose" value="Suggestion">
+                <label for="purpose3">Website Suggestion</label><br>
 
-            <label><input type="checkbox" id="Subscribe" name="Subscribe">Subscribe to monthly newsletter?</label>
+                <label for="purpose_text">Text:</label>
+                <textarea name="purpose_text" id="purpose_text" rows="5"
+                    placeholder="Type the reason of your message..."></textarea>
+
+                <label><input type="checkbox" id="Subscribe" name="Subscribe">Subscribe to monthly
+                    newsletter?</label>
+
+                <button type="submit">Submit Answer</button>
+            </form>
+        </section>
+
+
+
+        <section class="team">
+            <h2>Know more about our team</h2>
+
+            <div class="team-members">
+                <figure>
+                    <img src="images/johnny.jpg" alt="Johnny, the best">
+                    <figcaption>Johnny</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/aquaman.jpg" alt="He breaths inside the water">
+                    <figcaption>Aquaman</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/coragem.jpg" alt="He has courage">
+                    <figcaption>Courage</figcaption>
+                </figure>
             </div>
-
-            <button type="submit">Submit Answer</button>
-
-        </form>
-
-        <h2>Know more about our team</h2>
-
-        <figure>
-            <img src="" alt="">
-            <figcaption></figcaption>
-        </figure>
-
-        <figure>
-            <img src="" alt="">
-            <figcaption></figcaption>
-        </figure>
-
-        <figure>
-            <img src="" alt="">
-            <figcaption></figcaption>
-        </figure>
+        </section>
 
         <!--Review why the images are not showing up-->
         <footer>
             <p>©2025 | White Water Rafting | Henrique Gregorio</p>
-            <nav class="socialmedia">
+            <nav class="media">
                 <a href="https://web.whatsapp.com/"><img src="images/whatsapp.svg" alt="Instagram page"></a>
                 <a href="https://www.instagram.com/"><img src="images/whatsapp.svg" alt="WhatsApp contact"></a>
                 <a href="https://www.youtube.com/"><img src="images/youtube.svg" alt="YouTube channel"></a>
