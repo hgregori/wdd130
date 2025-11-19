@@ -181,11 +181,11 @@ footer p {
     position: relative;
 }
 
-.media a {
+.socialmedia a {
     position: absolute;
     text-decoration: none;
 }
-
+    
 .team {
     text-align: center;
     padding: 2rem 0;
