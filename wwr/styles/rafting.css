@@ -15,7 +15,7 @@
 header {
     display: grid;
     grid-template-columns: 170px 1fr;
-    background-color: palegreen;
+    background-color: #0a9396;
     border: 1px solid black;
     padding: 5px;
 }
@@ -66,7 +66,7 @@ body {
 }
 
 header, main, footer {
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -245,4 +245,78 @@ footer p {
     display: flex;
     flex-direction: column;
     gap: 3px
+}
+
+.welcome {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.welcome img {
+
+    max-width: 800px;
+    height: auto;
+    margin: 2rem;
+}
+
+.welcome p {
+    position: absolute;
+    max-width: 750px;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    Background: rgba(0, 0, 0, 0.5);
+    color: #FFFFFF;
+    Font: Bold, sans-serif;
+}
+
+.newsletter {
+  padding: 10px;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.newsletter-form p {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+  font-weight: bold;
+}   
+
+.newsletter-form label {
+  display: block;
+  margin: 10px 0 5px;
+  font-weight: 600;
+}
+
+.newsletter-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.newsletter-form button {
+  background-color: darkblue; /* Vibrant color for CTA */
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+.quality {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.quality-contend1 figcaption {
+     
 }
