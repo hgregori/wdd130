@@ -310,13 +310,75 @@ footer p {
   cursor: pointer;
 }
 
+.quality p {
+    text-align: center;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}   
 
-.quality {
-    display: flex;
-    flex-wrap: wrap;
-    
+.quality a {
+    display: block;
+    align-items: center;
+    justify-content: center ;
+    text-align: center;
+    padding: 10px 15px;
+    border: #264653;
+    color: #fff;
+    background-color: darkblue;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    box-shadow: 0px 3px 5px gray;
+    width: 230px;
+    margin: 0 auto;
 }
 
-.quality-contend1 figcaption {
-     
+.quality a:hover {
+    background-color: #000080;
+    border-radius: 5px;
+    text-decoration: underline;
+}
+
+.quality-action {
+    background-color: #F2F2F2;
+    border: 1px solid lightgray;
+    padding: 15px;
+    margin: 0 auto;
+    width: 400px;
+    border-radius: 5px;
+}
+
+.quality {
+  display: flex;
+  flex-direction: column; /* Keep figures stacked vertically */
+  gap: 30px;              /* Space between figures */
+  align-items: stretch;   /* Allow figures to take full width */
+  max-width: 1200px;      /* Optional: limit overall width */
+  margin: 0 auto;         /* Center the whole section on the page */
+}
+
+.quality figure {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.quality-contend1 {
+  flex-direction: row; /* Image left, text right */
+}
+
+.quality-contend2 {
+  flex-direction: row-reverse; /* Image right, text left */
+}
+
+.quality figure img {
+  max-width: 400px;
+}
+
+.quality figure figcaption {
+  flex: 1;
+  text-align: left;
 }
