@@ -382,3 +382,77 @@ footer p {
   flex: 1;
   text-align: left;
 }
+
+.contact p {
+    text-align: center;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}   
+
+.contact a {
+    display: block;
+    align-items: center;
+    justify-content: center ;
+    text-align: center;
+    padding: 10px 15px;
+    border: #264653;
+    color: #fff;
+    background-color: darkblue;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    box-shadow: 0px 3px 5px gray;
+    width: 230px;
+    margin: 0 auto;
+}
+
+.Knowmore-trips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.Knowmore-trips figure {
+    width: 300px; /* or use max-width for responsiveness */
+    text-align: center;
+}
+
+
+.adventures-trips {
+    display: flex;
+    flex-direction: column;
+    gap: 40px; /* space between articles */
+}
+
+.adventures-trips article {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.adventures-trips article img {
+    width: 300px;
+    height: auto;
+    border-radius: 8px;
+    flex-shrink: 0;
+}
+
+.adventures-trips article div {
+    display: flex;
+    flex-direction: column; /* ensures H2 is above P */
+    justify-content: center;
+}
+
+.adventures-trips article h2 {
+    margin: 0 0 10px;
+    font-size: 1.8rem;
+    color: #222;
+}
+
+.adventures-trips article p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #555;
+}
+
