@@ -347,40 +347,22 @@ footer p {
     border-radius: 5px;
 }
 
-.quality {
-  display: flex;
-  flex-direction: column; /* Keep figures stacked vertically */
-  gap: 30px;              /* Space between figures */
-  align-items: stretch;   /* Allow figures to take full width */
-  max-width: 1200px;      /* Optional: limit overall width */
-  margin: 0 auto;         /* Center the whole section on the page */
+.quality img{
+  display: grid;
+  width: 400px;
+  margin: 0 auto;
+  padding: 1rem;
+  border-radius: 20px;
+  justify-content: center;
 }
 
-.quality figure {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 15px;
-  margin-bottom: 20px;
-  width: 100%;
+.quality figcaption {
+    margin: 0 auto;
+    width: 400px;
+    padding: 10px;
 }
 
-.quality-contend1 {
-  flex-direction: row; /* Image left, text right */
-}
-
-.quality-contend2 {
-  flex-direction: row-reverse; /* Image right, text left */
-}
-
-.quality figure img {
-  max-width: 400px;
-}
-
-.quality figure figcaption {
-  flex: 1;
-  text-align: left;
-}
+.quality 
 
 .contact p {
     text-align: center;
